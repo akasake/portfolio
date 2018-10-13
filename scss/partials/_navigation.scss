@@ -1,0 +1,23 @@
+nav{
+    width       : 0;
+    height      : 0;
+    border-top  : 200px solid $bgBeige;
+    border-right: 100vw solid transparent;
+    position    : relative;
+    text-align  : center;
+    
+}
+/*.box{
+    position : absolute;
+    right    : -26px;
+    top      : -100px;
+    transform: rotate(-30deg);
+    width    : 400px
+}*/
+nav a{
+    color          : $fntPink;
+    font-size      : $SSize;
+    text-decoration: none;
+    padding        : 2em;
+
+}

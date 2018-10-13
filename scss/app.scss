@@ -1,0 +1,34 @@
+// theme
+@import 'variables';
+// components
+@import 'components/fontstyles';
+// partials
+@import 'partials/navigation';
+@import 'partials/contact';
+body{ 
+    font-weight: $regularFont;
+    margin     : 0;
+    color      : $fntGrey
+}
+header{
+    background-color: $bgBeige;
+    text-align      : center;
+    padding         : 3em 0 0 0;
+}
+.logo{
+    width  : 300px;
+    padding: 0 0 0 50px;
+}
+.container{
+    margin: 0 1em
+}
+.about{
+    display        : grid;
+    justify-content: end;
+}
+
+.contact{
+    display        : grid;
+    justify-content: center;
+}
+
