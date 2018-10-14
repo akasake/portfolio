@@ -17,6 +17,7 @@ class CreateWorksTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->text('description');
+            $table->string('cover_url');
             $table->timestamps();
         });
     }
