@@ -17,7 +17,7 @@ class CreateSkillsTable extends Migration
             $table->increments('id');
             $table->string('logo_url');
             $table->string('name');
-            $table->integer('skill_lvl')
+            $table->integer('skill_lvl');
             $table->timestamps();
         });
     }
