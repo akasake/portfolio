@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="{{ URL::asset( 'css/normalize.css' ) }}">
         <link rel="stylesheet" href="{{ URL::asset( 'css/app.min.css' ) }}">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         <title>{{ config('app.name') }}</title>
         <script>
             window.Laravel = {!! json_encode([
@@ -93,6 +94,12 @@
                         <button type="submit" class="button btnPurple" value="Send">Send</button>
                 </form>
 -->
+                <div class="contact-socials">
+                    <i class="fab fa-twitter fa-2x fntGreen"></i>
+                    <i class="fab fa-github-alt fa-2x fntBeige"></i>
+                    <i class="fab fa-linkedin-in fa-2x fntPurple"></i>
+                </div>
+                
             </div> 
         </div>
     </body> 
