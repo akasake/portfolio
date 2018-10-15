@@ -4,10 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="stylesheet" href="{{ URL::asset( 'css/normalize.css' ) }}">
         <link rel="stylesheet" href="{{ URL::asset( 'css/app.min.css' ) }}">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i" rel="stylesheet">
-        <title>Pham Akasake</title>
+        <title>{{ config('app.name') }}</title>
+        <script>
+            window.Laravel = {!! json_encode([
+            'csrfToken' => csrf_token(),
+            ]) !!};
+        </script>
     </head>
     <body>
         <header>
@@ -65,6 +71,26 @@
                         Or simply just want to say hi?<br>
                         Email me, or find me on my social media accounts linked below. <br>
                         Talk to you soon!</p>
+                @if(session('message'))
+                    <div class='alert alert-success'>
+                        {{ session('message') }}
+                    </div>
+                @endif
+	
+
+                <form class="form-vertical" method="POST" action="/">
+                    {{ csrf_field() }} 
+                    
+                        <label for="Name">Your name: </label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name" name="name" required>
+                        <label for="email">Your email: </label>
+                        <input type="text" class="form-control" id="email" placeholder="pham@example.com" name="email" required>
+                        <label for="message">Your message: </label>
+                        <textarea type="text" class="form-control" id="message" placeholder="Type your messages here" name="message" required></textarea>
+                        <button type="submit" class="button btnPurple" value="Send">Send</button>
+
+                </form>
+
             </div> 
         </div>
     </body> 

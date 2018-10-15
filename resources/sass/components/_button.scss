@@ -17,8 +17,10 @@
     border: 1px solid $white;
     color: $fntGreen;
 }
-.btnPurple:link{
+.btnPurple{
     background-color: $fntPurple;
+    border: none;
+    padding    : 0.5em 2em;
 }
 .btnPurple:hover{
     background-color: $white;
