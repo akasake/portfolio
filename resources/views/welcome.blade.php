@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126471748-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126471748-1');
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -95,7 +104,7 @@
                 </form>
 -->
                 <div class="contact-socials">
-                    <i class="fab fa-twitter fa-2x fntGreen"></i>
+                    <a href = "" ></a><i class="fab fa-twitter fa-2x fntGreen"></i> </a>
                     <i class="fab fa-github-alt fa-2x fntBeige"></i>
                     <i class="fab fa-linkedin-in fa-2x fntPurple"></i>
                 </div>
