@@ -1,10 +1,5 @@
 // theme
 @import 'variables';
-// components
-@import 'components/fontstyles';
-// partials
-@import 'partials/navigation';
-@import 'partials/contact';
 body{ 
     font-weight: $regularFont;
     margin     : 0;
@@ -14,13 +9,15 @@ header{
     background-color: $bgBeige;
     text-align      : center;
     padding         : 3em 0 0 0;
+    height          : 60vh;
 }
 .logo{
-    width  : 300px;
-    padding: 0 0 0 50px;
+    max-height: 40vh;
+    max-width : 50vh ;
+    padding   : 0 0 0 50px;
 }
 .container{
-    margin: 0 1em
+    margin: 0 1em;
 }
 .about{
     display        : grid;
@@ -32,3 +29,26 @@ header{
     justify-content: center;
 }
 
+
+// components
+@import 'components/fontstyles';
+@import 'components/skillbars';
+// partials
+@import 'partials/navigation';
+@import 'partials/contact';
+
+@media (min-width: 380px ) {
+    .container{
+        margin: 0 3em;
+    }
+}
+@media (min-width: 980px ) {
+    .container{
+        margin: 0 10%;
+    }
+}
+@media (min-width: 1200px ) {
+    .container{
+        margin: 0 20%;
+    }
+}
