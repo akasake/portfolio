@@ -47,17 +47,25 @@
                 <div>
 
                 </div>
-            </div>
-            <div class="work">
+            </div>  
+        </div>   
+        <div class="triangle"></div>
+        <div class="work">
+            
+            <div class="container" >
                 <h1 class="fntRed fntLeft">My work</h1>
+                <p>In the past years I have done a few projects. Click on the button to see all of them.<br>Or click on the image to see my latest work.</p>
+                <a class="button btnGreen" href="#">Show me the work</a>
             </div>
+        </div>
+        <div class="container" >
             <div class="contact">
                 <h1>Contact</h1>
                 <p>Want to work with me? <br>
                         Or simply just want to say hi?<br>
                         Email me, or find me on my social media accounts linked below. <br>
                         Talk to you soon!</p>
-            </div>
-        </div>    
+            </div> 
+        </div>
     </body> 
 </html>

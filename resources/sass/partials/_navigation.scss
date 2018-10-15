@@ -5,7 +5,7 @@ nav{
     border-right: 100vw solid transparent;
     position    : relative;
     text-align  : center;
-    
+    z-index: -1;
 }
 /*.box{
     position : absolute;

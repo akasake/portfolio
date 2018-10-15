@@ -1,0 +1,14 @@
+.triangle{
+    width       : 0;
+    height      : 0;
+    border-bottom  : 30vh solid $bgGreen;
+    border-right: 100vw solid transparent;
+    position    : relative;
+    text-align  : center;
+    
+}
+.work{
+    background-color: $bgGreen;
+    min-height: 300px;
+    margin-bottom: 2em;
+}  

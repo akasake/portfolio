@@ -1,0 +1,27 @@
+.button{
+    display: inline-block;
+    font-weight: $headerFont;
+    font-size  : $butmo;
+    text-align : center;
+    padding    : 0.5em 1em;
+    color      : $white;
+    text-decoration: none;
+    border-radius: $rad;
+    margin: 1em 0;
+}
+.btnGreen:link{
+    background-color: $fntGreen;
+}
+.btnGreen:hover{
+    background-color: $white;
+    border: 1px solid $white;
+    color: $fntGreen;
+}
+.btnPurple:link{
+    background-color: $fntPurple;
+}
+.btnPurple:hover{
+    background-color: $white;
+    border: 1px solid $fntPurple;
+    color: $fntPurple;
+}
