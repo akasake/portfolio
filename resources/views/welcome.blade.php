@@ -69,8 +69,11 @@
                 <h1>Contact</h1>
                 <p>Want to work with me? <br>
                         Or simply just want to say hi?<br>
-                        Email me, or find me on my social media accounts linked below. <br>
+                        Email me benchaphonvde@gmail.com, or find me on my social media accounts linked below. <br>
                         Talk to you soon!</p>
+
+
+<!--
                 @if(session('message'))
                     <div class='alert alert-success'>
                         {{ session('message') }}
@@ -88,9 +91,8 @@
                         <label for="message">Your message: </label>
                         <textarea type="text" class="form-control" id="message" placeholder="Type your messages here" name="message" required></textarea>
                         <button type="submit" class="button btnPurple" value="Send">Send</button>
-
                 </form>
-
+-->
             </div> 
         </div>
     </body> 
