@@ -1,3 +1,4 @@
+@extends('layouts/app')
 <h1 class="fntRed">My work</h1>
  
 {{$a = 1;}}

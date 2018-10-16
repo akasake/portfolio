@@ -1,5 +1,6 @@
 // theme
 @import 'variables';
+
 html,body
 {
     width      : 100%;
@@ -10,28 +11,12 @@ html,body
     font-weight: $regularFont;
     color      : $fntGrey
 }
-
-header{
-    background-color: $bgBeige;
-    text-align      : center;
-    padding         : 3em 0 0 0;
-    height          : 60vh;
-}
-.logo{
-    max-height: 40vh;
-    max-width : 50vh ;
-}
 .container{
     margin: 0 1em;
 }
 .about{
     display        : grid;
     justify-content: end;
-}
-
-.contact{
-    display        : grid;
-    justify-content: center;
 }
 .about, .skills, .work, .contact{
     padding: 2em 0
@@ -45,14 +30,13 @@ header{
 @import 'partials/navigation';
 @import 'partials/contact';
 @import 'partials/work';
+@import 'partials/header';
 
 @media (min-width: 380px ) {
     .container{
         margin: 0 3em;
     }
-    .logo{
-        padding: 0 0 0 50px;
-    }
+
 }
 @media (min-width: 980px ) {
     .container{

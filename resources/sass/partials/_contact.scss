@@ -2,6 +2,8 @@
     border       : 1px solid $btnPurple;
     text-align   : center;
     margin-bottom: 1em;
+    display        : grid;
+    justify-content: center;
 }
 .form-vertical{
     display: flex;

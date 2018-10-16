@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+.header--title{
+    padding: 0;
+}
+
+.header_box{
+    text-align      : center;
+    padding         : 28em 100vw 0 100vw;
+    height          : 60vh;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+    margin: -25em -1em 0 0;
+}
+.logo{
+    max-height: 40vh;
+    max-width : 50vh ;
+    padding: 0 0 0 10px
+}
+.rotation_box{
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+    margin: 0 5em 0 0;
+
+}
