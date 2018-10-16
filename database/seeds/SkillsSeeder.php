@@ -11,7 +11,7 @@ class SkillsSeeder extends Seeder
      */
     public function run()
     {
-        /
+        
         $html = new \App\Skill();
         $html->logo_url = "/images/skills/html.svg";
         $html->name = "html 5";
