@@ -1,40 +1,24 @@
-@extends('layouts/app')
-<h1 class="fntRed">My work</h1>
- 
-{{$a = 1;}}
-@foreach( $works as $w)
-    @if($a === 1)
-        <div class = "purple left"> 
-            <img src="{{$w->cover_url}}" alt="{{$w->title}} cover image">
-            <h2>{{$w->title}}</h2>
-            <p>{{$w->description}}</p>
-            <a href="/work/{{$w->id}}">read more</a>
-            {{$a = 2}}
+@extends('layouts/app') 
+@section('header')
+        <div class="header_box bgBeige">
+            <div class="rotation_box">
+                <img src="/images/logo color.svg" alt="logo" class="logo">
+                <h1 class="header--title">My work</h1>
+            </div>
         </div>
-    @elseif($a === 2)
-        <div class = "blue right"> 
-            <img src="{{$w->cover_url}}" alt="{{$w->title}} cover image">
-            <h2>{{$w->title}}</h2>
-            <p>{{$w->description}}</p>
-            <a href="/work/{{$w->id}}">read more</a>
-            {{$a = 3}}
-        </div>
-    @elseif($a ===3)
-        <div class = "beige left"> 
-            <img src="{{$w->cover_url}}" alt="{{$w->title}} cover image">
-            <h2>{{$w->title}}</h2>
-            <p>{{$w->description}}</p>
-            <a href="/work/{{$w->id}}">read more</a>
-            {{$a = 4}}
-        </div>
-    @elseif($a===4)
-        <div class = "green right"> 
-            <img src="{{$w->cover_url}}" alt="{{$w->title}} cover image">
-            <h2>{{$w->title}}</h2>
-            <p>{{$w->description}}</p>
-            <a href="/work/{{$w->id}}">read more</a>
-            {{$a = 1}}
-        </div>
-    @endif
-
-@endforeach
+@endsection
+@section('nav')
+        <div class="box bgBeige">
+            <a href="/#about">About</a>
+            <a href="/work/">Work</a>
+            <a href="/#contact">Contact</a>
+        </div>  
+@endsection
+@section('main')
+    <div class="worktypes">
+        <a href="/work/development" > <img src="/images/work/Codingprojects.png" alt="coding" class="coding worktype"></a>
+        <a href="/work/design" > <img src="/images/work/Design project.png" alt="coding" class="design worktype"></a>
+        <a href="/work/prof" > <img src="/images/work/Professional Development.png" alt="coding" class="prof worktype"></a>
+    </div>
+    
+@endsection
