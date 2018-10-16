@@ -21,6 +21,9 @@ html,body
 .about, .skills, .work, .contact{
     padding: 2em 0
 }
+.hidden{
+    display: none;
+}
 
 // components
 @import 'components/fontstyles';
