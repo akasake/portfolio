@@ -104,9 +104,10 @@
                 </form>
 -->
                 <div class="contact-socials">
-                    <a href = "" ></a><i class="fab fa-twitter fa-2x fntGreen"></i> </a>
-                    <i class="fab fa-github-alt fa-2x fntBeige"></i>
-                    <i class="fab fa-linkedin-in fa-2x fntPurple"></i>
+                    <a href = "https://twitter.com/benchaphone" ><i class="fab fa-twitter fa-2x fntGreen"></i> </a>
+                    <a href = "https://github.com/akasake" ><i class="fab fa-github-alt fa-2x fntBeige"></i></a>
+                    <a href = "https://www.linkedin.com/in/benchaphonvandeneynden/" ><i class="fab fa-linkedin-in fa-2x fntPurple"></i></a>
+                    <a href = "https://www.instagram.com/akasake_pham/" ><i class="fab fa-instagram fa-2x fntPink"></i></a>
                 </div>
                 
             </div> 

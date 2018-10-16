@@ -6,7 +6,7 @@
     align-items   : center;
   }
 .skill_logo{
-    width: 65px;
+    width: 53px;
 }
 .skill_bar{
     height     : 30px;
@@ -103,6 +103,9 @@
   @media (min-width: 700px ) {
     .skill{
         max-width: 48%;
+    }
+    .skill_logo{
+        width: 65px;
     }
     .skills_graph-cont{
         max-height    : 455px;
