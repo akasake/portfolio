@@ -28,3 +28,14 @@ header{
     margin: 0 5em 0 0;
 
 }
+.prof, .design, .development{
+    max-height: 40vh;
+    max-width : 50vh ;
+    min-width: 200px;
+    padding: 0 0 0 10px
+}
+@media (min-width: 580px ) {
+    .design{
+        min-width: 400px;
+    }
+}

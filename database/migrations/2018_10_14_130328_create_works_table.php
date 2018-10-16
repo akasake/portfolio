@@ -16,7 +16,8 @@ class CreateWorksTable extends Migration
         Schema::create('works', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->text('description');
+            $table->text('description'); // development, design or prof
+            $table->string('type');
             $table->string('cover_url');
             $table->timestamps();
         });

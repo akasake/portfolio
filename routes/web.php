@@ -15,4 +15,6 @@ Route::get('/', "homeController@show");
 Route::post('/', "ContactController@mailToAdmin");
 
 Route::get('/work', "workController@show");
+Route::get('/work/{type}', "workController@showType");
+
     

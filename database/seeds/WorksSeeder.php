@@ -13,8 +13,16 @@ class WorksSeeder extends Seeder
     {
         $work = new \App\Work();
         $work->title = "Muse";
-        $work->description = "A team project I have done for the class PHP. We had to design and work out an app made for inspiration. This project was the first project where we had to work on GITHUB in team. It was definitly a challenge to work on one project with different features that rely on eachother. Each week, we had deadlines to work towards and it was interesting to learn the different challenges that comes with working in a team on one project."
-        $work->cover_url = "/images/work/muse.svg"
+        $work->description = "A team project I have worked on for the class PHP. We had to design and develop an inspiration app. This project was the first where we had to work on GITHUB in team. It was a challenge to work together on one project with different features that rely on each other. Each week, we had deadlines to work towards and it was interesting to learn the different challenges that comes with working in a team on one project."
+        $work->type ="development"
+        $work->cover_url = "/images/work/Muse.png"
+        $work->save();
+
+        $work = new \App\Work();
+        $work->title = "Muse";
+        $work->description = "A team project I have worked on for the class PHP. We had to design and develop an inspiration app. This project was the first where we had to work on GITHUB in team. It was a challenge to work together on one project with different features that rely on each other. Each week, we had deadlines to work towards and it was interesting to learn the different challenges that comes with working in a team on one project."
+        $work->type ="development"
+        $work->cover_url = "/images/work/Muse.png"
         $work->save();
     }
 }

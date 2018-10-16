@@ -16,9 +16,9 @@
 @endsection
 @section('main')
     <div class="worktypes">
-        <a href="/work/development" > <img src="/images/work/Codingprojects.png" alt="coding" class="coding worktype"></a>
-        <a href="/work/design" > <img src="/images/work/Design project.png" alt="coding" class="design worktype"></a>
-        <a href="/work/prof" > <img src="/images/work/Professional Development.png" alt="coding" class="prof worktype"></a>
+        <a href="/work/development" > <img src="/images/work/Codingprojects.png" alt="coding" class="worktype"></a>
+        <a href="/work/design" > <img src="/images/work/Design project.png" alt="coding" class="worktype"></a>
+        <a href="/work/prof" > <img src="/images/work/Professional Development.png" alt="coding" class="worktype"></a>
     </div>
     
 @endsection
